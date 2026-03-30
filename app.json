@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/index/index",
+    "pages/community/community",
+    "pages/album/album",
+    "pages/upload/upload",
+    "pages/family-upload/family-upload",
+    "pages/webview/webview"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FF6B4A",
+    "navigationBarTitleText": "银龄智享",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleSize": "50rpx"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于紧急呼救时发送位置"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
